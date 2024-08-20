@@ -1,11 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Hello</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dungeon Crawler Game</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Dungeon Crawler</h1>
+            <p>Embark on an epic adventure into the depths of darkness.</p>
+            <button onclick="scrollToSection('features')">Learn More</button>
+        </div>
+    </header>
 
-<h1>Website</h1>
+    <!-- Game Features Section -->
+    <section id="features" class="features">
+        <h2>Game Features</h2>
+        <div class="feature-list">
+            <div class="feature-item">
+                <h3>Diverse Dungeons</h3>
+                <p>Explore procedurally generated dungeons with unique challenges and enemies.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Epic Boss Fights</h3>
+                <p>Face off against powerful bosses that require strategy and skill to defeat.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Rich Loot System</h3>
+                <p>Discover rare and powerful items to customize your character.</p>
+            </div>
+        </div>
+    </section>
 
+    <!-- About the Game Section -->
+    <section id="about" class="about">
+        <h2>About the Game</h2>
+        <p>Dungeon Crawler is a rogue-like adventure game where you navigate through dangerous dungeons, fight monsters, and collect loot. With procedurally generated levels, no two runs are ever the same.</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Dungeon Crawler Game. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">Twitter</a>
+            <a href="#">Discord</a>
+            <a href="#">Reddit</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
